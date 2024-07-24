@@ -3,8 +3,8 @@ name: Docker Build
 on:
   push:
     branches:
-      - main
+      - master
 jobs: {}
   build:
 
-    uses: sreekanth014/docker-templates/.github/workflows/docker-build.yml@main
+    uses: sreekanth014/docker-templates/.github/workflows/docker-build.yml@master
