@@ -1,13 +1,1 @@
-name: Main Workflow
-
-on:
-  push:
-    branches:
-      - master
-
-jobs:
-  build:
-    uses: sreekanth014/docker-templates/.github/workflows/docker-build.yml@main
-    with:
-      docker_username: ${{ secrets.DOCKER_USERNAME }}
-      docker_password: ${{ secrets.DOCKER_PASSWORD }}
+uses: sreekanth014/docker-templates/.github/workflows/docker-build.yml@main
